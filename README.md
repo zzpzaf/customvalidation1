@@ -5,7 +5,7 @@
 -------
 
 
-This repo is the clean starting step for creating a Custom Validation in [Spring Boot](https://spring.io/) using the [Hibernate Validator](https://hibernate.org/validator/).
+This repo can be used as a starting step for creating a Custom Validation in [Spring Boot](https://spring.io/) using the [Hibernate Validator](https://hibernate.org/validator/).
 
 
 #### Clone this Repo

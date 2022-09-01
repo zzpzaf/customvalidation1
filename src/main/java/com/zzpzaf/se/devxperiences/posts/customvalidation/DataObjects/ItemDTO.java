@@ -6,11 +6,14 @@ import javax.validation.constraints.Positive;
 
 import org.hibernate.validator.constraints.Range;
 
+import com.zzpzaf.se.devxperiences.posts.customvalidation.Validators.OneOfIntegers;
+
 public class ItemDTO {
     
     @NotNull(message = "The item Name is required!")
     private String itemName;
 
+    @OneOfIntegers(Values={2, 17, 33, 5, 28}, message = "Invalid Vendor ID. It should be one of: {Values}")
     private int itemVendorId;
 
     @Range(min=2020, max=2022, message = "The Item Year of Model should be between 2020 and 2022!")
